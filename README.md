@@ -81,13 +81,16 @@ tutorial-sicss/
 ```bash
 git clone https://github.com/YourOrg/tutorial-sicss.git
 cd tutorial-sicss
+```
+### 2. Load dependencies
 
-python -m venv venv
+```bash
+python -m venv venv # create python virtual environment
 source venv/bin/activate   # or venv\\Scripts\\activate on Windows
-pip install -r requirements.txt
+pip install -r requirements.txt # install required dependencies
 ```
 
-### 2. Proper use of API Keys
+### 3. Proper use of API Keys
 
 **[NOTE] DO NOT PUT API KEYS DIRECTLY IN YOUR CODE/NOTEBOOKS.**
 
