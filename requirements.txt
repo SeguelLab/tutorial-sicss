@@ -2,3 +2,7 @@ openai
 langchain_openai 
 langchain-community 
 tavily-python
+scikit-learn
+matplotlib
+pandas
+numpy
