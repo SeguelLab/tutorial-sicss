@@ -1,2 +1,6 @@
+# API Key files
 *.env
 .env
+
+# venv
+venv/
