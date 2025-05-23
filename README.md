@@ -117,13 +117,13 @@ Alternatively you can also enter your API key using the getpass library, which w
 
 ## Tutorial Workflow
 
-### [1️⃣ OpenAI API Tutorial](notebooks\1.OpenAI_API_Tutorial.ipynb)
+### [1️⃣ OpenAI API Tutorial](notebooks/1.OpenAI_API_Tutorial.ipynb)
 
 In this first tutorial, you will call the openAI API with a prompt, and print out the response you get from ChatGPT. We will be using gpt-3.5-turbo for this, but you can use other models you have accesss to as well.
 
 You will learn the basic syntax, and process of making a simple call to the openAI API, and the meaning of some parameters that we pass into the call.
 
-### [2️⃣ LLM Agent + WebSearch](notebooks\2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb)
+### [2️⃣ LLM Agent + WebSearch](notebooks/2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb)
 
 Now going beyond just using a simple question and response, we use LangChain, a library for AI Agent orchestration. Using a web search tool
 called Tavily AI, it will first search the web to get more information in order to answer the question. This is then passed onto the LLM (ChatGPT) to get a final result.
