@@ -2,5 +2,6 @@
 *.env
 .env
 
-# venv
+# directories
 venv/
+__pycache__
