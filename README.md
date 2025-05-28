@@ -1,6 +1,6 @@
 # tutorial-sicss
 
-### Purpose: Hands-on SICSS tutorial notebooks, will flip to public after polish
+### Purpose: Hands-on SICSS tutorial notebooks, will flip to public after polishing
 
 ## 🌟 Overview
 
@@ -19,9 +19,9 @@ This tutorial requires access to an LLM API (e.g., OpenAI, DeepSeek, etc.).
 
 API keys will not be shared publicly.
 
-We will explain how to store your key securely (e.g., using environment variables or secret management tools).
+We will explain how to store your key securely, such as using environment variables or secret management tools.
 
-Please follow ethical guidelines and platform terms of service.
+Please follow the platform's ethical guidelines and terms of service.
 
 ### 🧠 Learning Goals
 By the end of this tutorial, you should be able to:
@@ -32,7 +32,7 @@ Apply prompt engineering techniques
 
 Automate web-based information retrieval
 
-Reflect on the reliability, reproducibility, and ethics of these tools in research
+Reflect on the reliability, reproducibility, and ethics of these tools in research.
 
 ### 📦 Extensions and Directions
 We will also discuss how these techniques can be extended to:
@@ -44,10 +44,10 @@ Supporting qualitative coding workflows
 Searching across open-access archives or academic corpora
 
 ### 🤝 License & Credits
-This material is part of a research and teaching initiative affiliated with [your institution/project].
+This material is part of a research and teaching initiative affiliated with [Toronto Metropolitan University].
 Please cite appropriately if you use or modify these materials.
 
-👨‍🏫 Authors: [Add your names here]
+👨‍🏫 Authors: Pedro Seguel, Artin Majd, Tharu Yakkala Arachchilage Don
 
 ---
 
@@ -92,9 +92,9 @@ pip install -r requirements.txt # install required dependencies
 
 ### 3. Proper use of API Keys
 
-**[NOTE] DO NOT PUT API KEYS DIRECTLY IN YOUR CODE/NOTEBOOKS.**
+**[NOTE] DO NOT PUT API KEYS DIRECTLY IN YOUR CODE/NOTEBOOKS**
 
-Instead we will put them into a .env file, which will then be loaded as a system variable.
+Instead, we will put them into a .env file, which will then be loaded as a system variable.
 
 You can start by making a copy of the file `.env.template` and saving it as `.env`, and putting your
 API key in there.
@@ -113,19 +113,19 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 ```
 
-Alternatively you can also enter your API key using the getpass library, which will be shown in the `OPENAI_API_Tutorial`. 
+Alternatively, you can also enter your API key using the getpass library, which will be shown in the `OPENAI_API_Tutorial`. 
 
 ## Tutorial Workflow
 
 ### [1️⃣ OpenAI API Tutorial](notebooks/1.OpenAI_API_Tutorial.ipynb)
 
-In this first tutorial, you will call the openAI API with a prompt, and print out the response you get from ChatGPT. We will be using gpt-3.5-turbo for this, but you can use other models you have accesss to as well.
+In this first tutorial, you will call the OpenAI API with a prompt and print out the response you get from ChatGPT. We will be using gpt-3.5-turbo for this, but you can use other models you have accesss to as well.
 
-You will learn the basic syntax, and process of making a simple call to the openAI API, and the meaning of some parameters that we pass into the call.
+You will learn the basic syntax and process of making a simple call to the OpenAI API, and the meaning of some parameters that we pass into the call.
 
 ### [2️⃣ LLM Agent + WebSearch](notebooks/2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb)
 
-Now going beyond just using a simple question and response, we use LangChain, a library for AI Agent orchestration. Using a web search tool
-called Tavily AI, it will first search the web to get more information in order to answer the question. This is then passed onto the LLM (ChatGPT) to get a final result.
+Now, going beyond just using a simple question and response, we use LangChain, a library for AI Agent orchestration. Using a web search tool
+called Tavily AI, it will first search the web to get more information in order to answer the question. This is then passed on to the LLM (ChatGPT) to obtain a final result.
 
 
