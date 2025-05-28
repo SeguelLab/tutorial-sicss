@@ -1,7 +1,18 @@
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 import numpy as np
 
-def check_eval_metrics(y_true, y_pred, prec_in, rec_in, f1_in, acc_in):
+def check_eval_metrics(y_true, y_pred, prec_in: float, rec_in: float, f1_in: float, acc_in: float):
+    """Takes two arrays of actual and predicted labels, and a set of precision, recall, f1, and accuracy measures.
+    Then tests the provided values against functions from sklearn.metrics
+    
+    Args:
+        y_true: Actual/True labels.
+        y_pred: Predicted labels.
+        prec_in (float): Precision to test.
+        rec_in (float): Recall to test.
+        f1_in (float): f1-score to test.
+        acc_in (float): accuracy to test.
+    """
     precision = precision_score(y_true=y_true, y_pred=y_pred)
     recall = recall_score(y_true=y_true, y_pred=y_pred)
     f1 = f1_score(y_true=y_true, y_pred=y_pred)
@@ -16,6 +27,6 @@ def check_eval_metrics(y_true, y_pred, prec_in, rec_in, f1_in, acc_in):
         ## Success ##
         print("\033[92mALL TESTS PASSED!\033[0m")
     except Exception as e:
-        print(e)
+        print(e) 
     
  
