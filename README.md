@@ -61,7 +61,6 @@ tutorial-sicss/
 |   ├── 2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb
 |   ├── 3.LangChain_Agent_WebSearch_Team_Classifier.ipynb
 |   └── 4.Model_Evaluation.ipynb
-├── outputs
 ├── slides
 ├── .env.template # Sample environment variable setup
 ├── README.md # Main documentation
