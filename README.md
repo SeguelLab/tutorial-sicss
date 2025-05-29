@@ -55,12 +55,12 @@ Please cite appropriately if you use or modify these materials.
 ```
 tutorial-sicss/
 ├── data   
-|   └── sports_teams.csv
+|   └── sports_teams.csv # sample data for notebook 3
 ├── notebooks
-|   ├── 1.OpenAI_API_Tutorial.ipynb
-|   ├── 2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb
-|   ├── 3.LangChain_Agent_WebSearch_Team_Classifier.ipynb
-|   └── 4.Model_Evaluation.ipynb
+|   ├── 1.OpenAI_API_Tutorial.ipynb # Simple Open AI API example
+|   ├── 2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb # LLM agent example
+|   ├── 3.LangChain_Agent_WebSearch_Team_Classifier.ipynb # LLM agent classification example
+|   └── 4.Model_Evaluation.ipynb # Model evaluation metrics
 ├── slides
 ├── .env.template # Sample environment variable setup
 ├── README.md # Main documentation
