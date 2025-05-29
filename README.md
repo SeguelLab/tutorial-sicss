@@ -129,3 +129,11 @@ Now, going beyond just using a simple question and response, we use LangChain, a
 called Tavily AI, it will first search the web to get more information in order to answer the question. This is then passed on to the LLM (ChatGPT) to obtain a final result.
 
 
+### [3️⃣ LangChain Agent and Classification](notebooks/3.LangChain_Agent_WebSearch_Team_Classifier.ipynb)
+
+Continuing from what we did early with LangChain and Taverly, we will use the agent to classify some data. We have some sample data of different sports teams where
+the agent will try to determine which sport the sports team belongs to, with the combination of web search and gpt.
+
+### [4️⃣ How to evaluate classification models](notebooks/4.Model_Evaluation.ipynb)
+
+We are working with what's called zero-shot classification which is unsupervised and doesn't have any labeled data. If we did use labeled data, how can we make sure that the predictions/classificaitons from the model are correct. We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, f1-score and accuracy. These metrics can be used to compare different models, and are the most widely used metrics for classificaiton tasks.
