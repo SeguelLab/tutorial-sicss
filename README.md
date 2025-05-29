@@ -54,23 +54,18 @@ Please cite appropriately if you use or modify these materials.
 ## 🧱 Structure of the Repository
 ```
 tutorial-sicss/
-├── data
-|    └── sample_dataset.csv # Dataset with 'name' column
-|
+├── data   
+|   └── sports_teams.csv
 ├── notebooks
-|   └── tutorial.ipynb # Jupyter Notebook walkthrough
-|
+|   ├── 1.OpenAI_API_Tutorial.ipynb
+|   ├── 2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb
+|   ├── 3.LangChain_Agent_WebSearch_Team_Classifier.ipynb
+|   └── 4.Model_Evaluation.ipynb
 ├── outputs
-|
-├── src # python scripts used in tutorial
-|    └── agent.py   # Agent logic and API interface
-|
-├── utils # helper scripts
-|    └── api_helpers.py # Web search, prompt engineering etc.
-|
-├── README.md # Main documentation
-├── requirements.txt
+├── slides
 ├── .env.template # Sample environment variable setup
+├── README.md # Main documentation
+├── requirements.txt # Dependencies
 ```
 ---
 
