@@ -131,4 +131,4 @@ the agent will try to determine which sport the sports team belongs to, with the
 
 ### [4️⃣ How to evaluate classification models](notebooks/4.Model_Evaluation.ipynb)
 
-We are working with what's called zero-shot classification which is unsupervised and doesn't have any labeled data. If we did use labeled data, how can we make sure that the predictions/classificaitons from the model are correct. We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, f1-score and accuracy. These metrics can be used to compare different models, and are the most widely used metrics for classificaiton tasks.
+We are working with what's called zero-shot classification which is unsupervised and doesn't have any labeled data. If we did use labeled data, how can we make sure that the predictions/classifications from the model are correct. We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, f1-score and accuracy. These metrics can be used to compare different models, and are the most widely used metrics for classification tasks.
