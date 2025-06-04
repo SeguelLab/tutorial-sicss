@@ -2,7 +2,7 @@
 
 ### Purpose: Hands-on SICSS tutorial notebooks, will flip to public after polishing
 
-## 🌟 Overview
+## Overview
 
 In this tutorial, you will learn how to:
 
@@ -23,7 +23,7 @@ We will explain how to store your key securely, such as using environment variab
 
 Please follow the platform's ethical guidelines and terms of service.
 
-### 🧠 Learning Goals
+### Learning Goals
 By the end of this tutorial, you should be able to:
 
 Build basic LLM agents for data classification
@@ -34,7 +34,7 @@ Automate web-based information retrieval
 
 Reflect on the reliability, reproducibility, and ethics of these tools in research.
 
-### 📦 Extensions and Directions
+### Extensions and Directions
 We will also discuss how these techniques can be extended to:
 
 Classifying and annotating your own research datasets
@@ -43,7 +43,7 @@ Supporting qualitative coding workflows
 
 Searching across open-access archives or academic corpora
 
-### 🤝 License & Credits
+### License & Credits
 This material is part of a research and teaching initiative affiliated with [Toronto Metropolitan University].
 Please cite appropriately if you use or modify these materials.
 
@@ -51,7 +51,7 @@ Please cite appropriately if you use or modify these materials.
 
 ---
 
-## 🧱 Structure of the Repository
+## Structure of the Repository
 ```
 tutorial-sicss/
 ├── data   
@@ -125,9 +125,9 @@ called Tavily AI, it will first search the web to get more information in order 
 
 ### [3️⃣ LangChain Agent and Classification](notebooks/3.LangChain_Agent_WebSearch_Team_Classifier.ipynb)
 
-Continuing from what we did early with LangChain and Taverly, we will use the agent to classify some data. We have some sample data of different sports teams where
-the agent will try to determine which sport the sports team belongs to, with the combination of web search and gpt.
+Continuing from what we did earlier with LangChain and Taverly, we will use the agent to classify some data. We have some sample data of different sports teams where
+The agent will try to determine which sport the sports team belongs to, with the combination of web search and GPT.
 
 ### [4️⃣ How to evaluate classification models](notebooks/4.Model_Evaluation.ipynb)
 
-We are working with what's called zero-shot classification which is unsupervised and doesn't have any labeled data. If we did use labeled data, how can we make sure that the predictions/classifications from the model are correct. We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, f1-score and accuracy. These metrics can be used to compare different models, and are the most widely used metrics for classification tasks.
+We are working with what's called zero-shot classification, which is unsupervised and doesn't have any labeled data. If we did use labeled data, how can we make sure that the predictions/classifications from the model are correct? We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, F1-score, and accuracy. These metrics can be used to compare different models and are the most widely used metrics for classification tasks.
