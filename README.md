@@ -135,4 +135,4 @@ We are working with a technique called zero-shot classification, which is an uns
 
 ### [Bonus: 5 Using Fuzzy Matching to Clean Organizational Names](notebooks/4.Model_Evaluation.ipynb)
 
-Afeef completes here...
+This notebook walks through the process of identifying and resolving inconsistencies in organization names using fuzzy matching techniques with the `dedupe` Python library. Includes basic cleaning, model training, clustering of similar names, and assigning canonical names. 
