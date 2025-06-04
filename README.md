@@ -47,7 +47,7 @@ Searching across open-access archives or academic corpora
 This material is part of a research and teaching initiative affiliated with [Toronto Metropolitan University].
 Please cite appropriately if you use or modify these materials.
 
-👨‍🏫 Authors: Pedro Seguel, Artin Majd, Tharu Yakkala Arachchilage Don
+👨‍🏫 Authors: Pedro Seguel, Artin Majd, Tharu Yakkala Arachchilage Don, Afeef Shaikh
 
 ---
 
@@ -61,6 +61,7 @@ tutorial-sicss/
 |   ├── 2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb # LLM agent example
 |   ├── 3.LangChain_Agent_WebSearch_Team_Classifier.ipynb # LLM agent classification example
 |   └── 4.Model_Evaluation.ipynb # Model evaluation metrics
+|   └── 5.Tutorial_Cleaning_Messy_Names_with_Dedupe.ipynb # Fuzzy Matching
 ├── slides
 ├── .env.template # Sample environment variable setup
 ├── README.md # Main documentation
@@ -113,7 +114,7 @@ Alternatively, you can also enter your API key using the getpass library, which 
 
 ### [1️⃣ OpenAI API Tutorial](notebooks/1.OpenAI_API_Tutorial.ipynb)
 
-In this first tutorial, you will call the OpenAI API with a prompt and print out the response you get from ChatGPT. We will be using gpt-3.5-turbo for this, but you can use other models you have accesss to as well.
+In this first tutorial, you will call the OpenAI API with a prompt and print out the response you get from ChatGPT. We will be using gpt-3.5-turbo for this, but you can use other models you have access to as well.
 
 You will learn the basic syntax and process of making a simple call to the OpenAI API, and the meaning of some parameters that we pass into the call.
 
@@ -125,9 +126,9 @@ called Tavily AI, it will first search the web to get more information in order 
 
 ### [3️⃣ LangChain Agent and Classification](notebooks/3.LangChain_Agent_WebSearch_Team_Classifier.ipynb)
 
-Continuing from what we did earlier with LangChain and Taverly, we will use the agent to classify some data. We have some sample data of different sports teams where
-The agent will try to determine which sport the sports team belongs to, with the combination of web search and GPT.
+Building on our earlier work with LangChain and Taverly, we will utilize the agent to classify some data. We have some sample data of different sports teams where
+The agent will attempt to determine which sport the sports team belongs to by combining web searches and GPT.
 
 ### [4️⃣ How to evaluate classification models](notebooks/4.Model_Evaluation.ipynb)
 
-We are working with what's called zero-shot classification, which is unsupervised and doesn't have any labeled data. If we did use labeled data, how can we make sure that the predictions/classifications from the model are correct? We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, F1-score, and accuracy. These metrics can be used to compare different models and are the most widely used metrics for classification tasks.
+We are working with a technique called zero-shot classification, which is an unsupervised approach that doesn't require any labeled data. If we did use labeled data, how can we make sure that the predictions/classifications from the model are correct? We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, F1-score, and accuracy. These metrics can be used to compare different models and are the most widely used metrics for classification tasks.
