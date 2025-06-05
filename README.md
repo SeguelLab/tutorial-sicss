@@ -61,7 +61,7 @@ tutorial-sicss/
 |   ├── 2.LLM_Agent_+_WebSearch_tool_Tutorial.ipynb # LLM agent example
 |   ├── 3.LangChain_Agent_WebSearch_Team_Classifier.ipynb # LLM agent classification example
 |   └── 4.Model_Evaluation.ipynb # Model evaluation metrics
-|   └── 5.Tutorial_Cleaning_Messy_Names_with_Dedupe.ipynb # Fuzzy Matching
+|   └── 5.fuzzy_matching_tutorial.ipynb.ipynb # Fuzzy Matching
 ├── slides
 ├── .env.template # Sample environment variable setup
 ├── README.md # Main documentation
