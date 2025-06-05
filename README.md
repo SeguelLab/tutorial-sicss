@@ -133,6 +133,7 @@ The agent will attempt to determine which sport the sports team belongs to by co
 
 We are working with a technique called zero-shot classification, which is an unsupervised approach that doesn't require any labeled data. If we did use labeled data, how can we make sure that the predictions/classifications from the model are correct? We will look at a few model evaluation measures that will allow us to compare different results. We will be using precision, recall, F1-score, and accuracy. These metrics can be used to compare different models and are the most widely used metrics for classification tasks.
 
-### [Bonus: 5 Using Fuzzy Matching to Clean Organizational Names](notebooks/4.Model_Evaluation.ipynb)
+### [Bonus: 5 Using Fuzzy Matching to Clean Organizational Names](notebooks/5_fuzzy_matching_tutorial.ipynb)
+
 
 This notebook walks through the process of identifying and resolving inconsistencies in organization names using fuzzy matching techniques with the `dedupe` Python library. Includes basic cleaning, model training, clustering of similar names, and assigning canonical names. 
